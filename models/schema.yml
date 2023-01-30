@@ -1,0 +1,12 @@
+
+version: 2
+
+models:
+  - name: movie_metrics
+    description: "Metrics on the movies"
+    columns:
+      - name: movie_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null

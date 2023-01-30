@@ -8,7 +8,7 @@ Welcome to your new dbt project!
 
 ### Start the Postgres server in a Docker container
 
-`docker run --rm --name dbt-practice-postgres -e POSTGRES_PASSWORD=foobar -v data:/var/lib/postgresql/data -p 5432:5432 postgres`
+`docker run --rm --name dbt-practice-postgres -e POSTGRES_PASSWORD=foobar -p 5432:5432 postgres`
 
 `psql -h localhost -p 5432 -U postgres -d postgres`
 
